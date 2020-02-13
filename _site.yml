@@ -5,6 +5,6 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "About"
-      href: about.html
+      href: About.html
     - text: "Craft Beers Case Study"
       href: US-Carft-Beers-and-Breweries---EDA.html
