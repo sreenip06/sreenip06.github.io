@@ -1,6 +1,9 @@
 library(shiny)
 library(dplyr) # for distinct
 
+#define list of states for selection
+states <- rbind(state.name, "District of Columbia")
+
 # Define UI for data upload app ----
 ui <- fluidPage(
   # App title ----
@@ -41,7 +44,7 @@ ui <- fluidPage(
         # state selection; applicable for all plots
         tags$hr(),
         selectInput( "stateSelect", label = "Select State(s)", 
-                     choices = c("All", sort(unique(beerBreweryDF$State_Name))), 
+                     choices = c("All", sort(unique(states))), 
                      selected = "All", multiple = TRUE, selectize = FALSE, size = 10 )
       ),
       mainPanel(
