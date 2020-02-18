@@ -5,8 +5,8 @@ account: sreenip06
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1804537
-bundleId: 2803722
+bundleId: 2808020
 url: https://sreenip06.shinyapps.io/CraftBeerEDA/
-when: 1581819557.68518
+when: 1581995829.75472
 asMultiple: FALSE
 asStatic: FALSE
