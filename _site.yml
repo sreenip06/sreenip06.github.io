@@ -8,3 +8,5 @@ navbar:
       href: About.html
     - text: "Craft Beers Case Study"
       href: US-Carft-Beers-and-Breweries---EDA.html
+    - text: "Talent Turnover Case Study"
+      href: Turnover-Analysis.html
